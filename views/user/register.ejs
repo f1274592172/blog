@@ -56,6 +56,7 @@
                     type: 'post',
                     success: function(res) {
                         if (res.status !== 200) {
+							console.log('test')
                             return alert(res.msg)
                         }
                         alert(res.msg)
